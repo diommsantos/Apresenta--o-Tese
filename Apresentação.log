@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.4.4)  24 SEP 2024 21:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.4.4)  1 NOV 2024 17:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -749,7 +749,7 @@ Package rerunfilecheck Info: File `Apresentação.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  21398 strings out of 475924
- 420724 string characters out of 5784283
+ 420722 string characters out of 5784283
  1944496 words of memory out of 5000000
  43088 multiletter control sequences out of 15000+600000
  568953 words of font info for 76 fonts, out of 8000000 for 9000
@@ -762,7 +762,7 @@ pdfTeX warning (dest): name{fratpgroup} has been referenced but does not exist, 
 pdfTeX warning (dest): name{th:fratgen} has been referenced but does not exist, replaced by a fixed one
 
 <c:/Users/Diogo/AppData/Local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/Users/Diogo/AppData/Local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/Users/Diogo/AppData/Local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb><c:/Users/Diogo/AppData/Local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb><c:/Users/Diogo/AppData/Local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb><c:/Users/Diogo/AppData/Local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><c:/Users/Diogo/AppData/Local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb><c:/Users/Diogo/AppData/Local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi12.pfb><c:/Users/Diogo/AppData/Local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb><c:/Users/Diogo/AppData/Local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/Users/Diogo/AppData/Local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/Users/Diogo/AppData/Local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Apresentação.pdf (9 pages, 133486 bytes).
+Output written on Apresentação.pdf (9 pages, 133469 bytes).
 PDF statistics:
  343 PDF objects out of 1000 (max. 8388607)
  291 compressed objects within 3 object streams
