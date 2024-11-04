@@ -45,7 +45,7 @@
             \item $H = P_1 \times \ldots  \times P_n$ where $P_i$ is a Sylow $p_i$-subgroup for $1 \le i \le n$ and $p_1,\ldots ,p_n$ are distinct primes.
             \item<3-> If $P_1,\ldots , P_n$ are cyclic, we obtain $H \cong \mathbb{Z}_{p_1\ldots p_n}$  which contradicts $d(H) > 1$.Without loss of generality we can thus assume that $P_1$ is not cyclic.
             \item<4-> $n \ge 2 \implies P_1 \cong H/(1 \times P_2 \ldots  \times P_n)$ and thus $d(P_1) = d(H/(1 \times P_2 \ldots  \times P_n)) = 1$, contradiction.
-            \item<5-> Since $d(H) = d(H/\Phi(H))$, $\Phi(H) = 1$ hence $H = (\mathbb{Z}_{p_1})^q$.
+            \item<5-> Since $d(H) = d(H/\Phi(H))$, $\Phi(H) = 1$
         \end{itemize}
     \end{proof}
 \end{frame}
@@ -53,7 +53,9 @@
 \begin{frame}{The case $m = 1$}
     \begin{proof}
         \begin{itemize}
-            \item<1-> $q = 2$ since $$q-1 = d((\mathbb{Z}_{p_1})^{q-1}) = d(H/(\mathbb{Z}_{p_1} \times 1 \times \ldots  \times 1)) = 1.$$
+            \item<1-> $H \cong H/\Phi(H)$ is a $\mathbb{Z}_{p_1}$-vector space and thus $H = (\mathbb{Z}_{p_1})^q$
+            \item<2-> $q = 2$ since $$q-1 = d((\mathbb{Z}_{p_1})^{q-1}) = d(H/(\mathbb{Z}_{p_1} \times 1 \times \ldots  \times 1)) = 1.$$
+            
         \end{itemize}
 
     \end{proof}
@@ -67,8 +69,19 @@
         L_k = \{ (l_1,\ldots ,l_k) \in L^k | l_1M = \ldots  = l_kM \}.
         $$
     \end{definition}
+    \vspace{1cm}
     \onslide<2->{The group $L_k$ can be described as $\diag{L^{k}}M^{k}$.}
 
+\end{frame}
+
+\begin{frame}{Properties of $L_k$}
+    \begin{itemize}
+        \item<2-> $\soc{L_k} = M^k$
+        \item<3-> $L_k / M^k \cong L/M$
+        \item<4-> If $M$ is abelian and complemented by $C$ in $L$, then $M^k$ is complemented by $\diag{C^k}$
+        \item<5-> The quotient of $L_{k+1}$ by any of its minimal normal subgroups is isomorphic to $L_k$
+    \end{itemize}
+    
 \end{frame}
 
 \begin{frame}{General Case}
