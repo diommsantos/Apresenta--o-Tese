@@ -63,12 +63,13 @@
 \end{frame}
 
 \begin{frame}{The groups $L_k$}
-    \begin{definition}
+    Throughout $L$ will always denote a finite group with a unique minimal normal subgroup $M$. Furthermore if $M$ is abelian, we also assume that $M$ is complemented in $L$.
+    \onslide<2->{\begin{definition}
         Given a positive integer $k$, the group $L_k$ is a subgroup of $L^{k}$ defined by:
         $$
         L_k = \{ (l_1,\ldots ,l_k) \in L^k | l_1M = \ldots  = l_kM \}.
         $$
-    \end{definition}
+    \end{definition}}
     \vspace{1cm}
     \onslide<2->{The group $L_k$ can be described as $\diag{L^{k}}M^{k}$.}
 
@@ -80,8 +81,20 @@
         \item<3-> $L_k / M^k \cong L/M$
         \item<4-> If $M$ is abelian and complemented by $C$ in $L$, then $M^k$ is complemented by $\diag{C^k}$
         \item<5-> The quotient of $L_{k+1}$ by any of its minimal normal subgroups is isomorphic to $L_k$
+        \item<6-> The sequence $d(L_k)_{k \in \mathbb{N}}$ is unlimited and non-decreasing.
+        \item<7-> For all $k \in \mathbb{N}$, $L_{k+1} \le L_{k}$.
     \end{itemize}
     
+\end{frame}
+
+\begin{frame}{The function $f$}
+    \begin{definition}
+        Given a group $L$ we define $f(L, m) = k+1$ if and only if $d(L_k) = m < d(L_{k+1})$. When $L$ can be identified from the context, we denote $f(L,m)$ as $f(m)$.
+    \end{definition}
+    \begin{itemize}
+        \item<2-> Thus the function $f$ gives us \textit{the integer $k+1$ for which any proper quotient of $L_{k+1}$ has minimal number of generators smaller or equal to $m$ but $d(L_{k+1}) > m$.}
+        \item<3-> It follows from the last $2$ properties of the groups $L_k$ that this function is non-decreasing and unbounded. 
+    \end{itemize}
 \end{frame}
 
 \begin{frame}{General Case}
@@ -91,4 +104,17 @@
 
 \end{frame}
 
+\begin{frame}{The function $f$}
+    
+\end{frame}
+    \begin{theorem}
+        Let $m \ge d(L)$ and $q$ be the number of $(L/M)$-endomorphisms of $M$ when $M$ is abelian. Then 
+        $$
+        f(m) = 1 +
+        \begin{cases}
+            \phi_L(m)/(\card{\Gamma}\phi_{L/M}(m))  \text{ if } M \text{ is not abelian,} \\
+            log_q(1+(q-1)\phi_L(m)/\card{\Gamma}\phi_{L/M}(m))  \text{ if } M \text{ is abelian.} \\
+        \end{cases}
+        $$
+    \end{theorem}
 \end{document}
