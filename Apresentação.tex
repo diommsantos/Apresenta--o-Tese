@@ -45,7 +45,7 @@
             \item $H = P_1 \times \ldots  \times P_n$ where $P_i$ is a Sylow $p_i$-subgroup for $1 \le i \le n$ and $p_1,\ldots ,p_n$ are distinct primes.
             \item<3-> If $P_1,\ldots , P_n$ are cyclic, we obtain $H \cong \mathbb{Z}_{p_1\ldots p_n}$  which contradicts $d(H) > 1$.Without loss of generality we can thus assume that $P_1$ is not cyclic.
             \item<4-> $n \ge 2 \implies P_1 \cong H/(1 \times P_2 \ldots  \times P_n)$ and thus $d(P_1) = d(H/(1 \times P_2 \ldots  \times P_n)) = 1$, contradiction.
-            \item<5-> Since $d(H) = d(H/\Phi(H))$, $\Phi(H) = 1$
+            \item<5-> Since $d(H) = d(H/\Phi(H))$, $\Phi(H) = 1$.
         \end{itemize}
     \end{proof}
 \end{frame}
@@ -104,9 +104,39 @@
 
 \end{frame}
 
-\begin{frame}{The function $f$}
-    
+\begin{frame}{General Case Proof}
+    The proof is divided in 2 cases:
+    \begin{itemize}
+        \item<2-> $H$ has a unique minimal normal subgroup
+        \item<3-> $H$ has more than one minimal normal subgroup
+        \begin{itemize}
+            \item<4-> Abelian minimal normal subgroups
+            \item<5-> Non-abelian minimal normal subgroups
+        \end{itemize}
+    \end{itemize}
 \end{frame}
+
+\begin{frame}{Proof: $H$ has a unique minimal normal subgroup}
+    Let $M$ denote the unique minimal normal subgroup of $L$. 
+    \begin{itemize}
+        \item<2-> If $M$ is not abelian there is nothing to prove.
+        \item<3-> If $M$ is abelian then we need to prove that it is complemented. 
+        Since $\Phi(H) = 1$, then there exists a maximal subgroup $K$ that does not contain $M$. We have that $K \cap M \nsub K$ and $K \cap M \nsub M$ (since $M$ is abelian). Thus $K \cap M \nsub KM = H$ and since $K \cap M \subset M$, $K \cap M = 1$. 
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Sketch of Proof: $H$ has more than one minmal normal subgroup}
+    \begin{itemize}
+        \item Let $N_1$ be a minimal normal subgroup of $H$. For any other minimal normal subgroups $N_r$ of $H$ ($N_1 \ne N_r$), there exists a subgroup $K_r$ of $H$ that complements both $N_1$ and $N_r$ in $H$.
+        \item<2-> The projections $\pi_r : K_r \cap (N_1 \times N_r) \rightarrow N_1$ and $\rho_r : K_r \cap (N_1 \times N_r) \rightarrow N_r$ are isomorphisms. Thus there is an isomorphism $\phi_r : N_1 \rightarrow N_r$, specifically $\phi_r = \rho_r\pi_r^{-1}$.
+    \end{itemize}
+    \onslide<3-> From this follows that either all the minimal normal subgroups of $H$ are abelian or all of them are non-abelian.
+\end{frame}
+
+\begin{frame}{Sketch of Proof: $H$ has abelian normal subgroups}
+\end{frame}
+
+\begin{frame}{The function $f$}
     \begin{theorem}
         Let $m \ge d(L)$ and $q$ be the number of $(L/M)$-endomorphisms of $M$ when $M$ is abelian. Then 
         $$
@@ -117,4 +147,6 @@
         \end{cases}
         $$
     \end{theorem}
+\end{frame}
+
 \end{document}
