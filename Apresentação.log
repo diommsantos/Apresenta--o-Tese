@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.4.4)  9 NOV 2024 16:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.4.4)  9 NOV 2024 21:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -742,12 +742,20 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 ] [35
 
+] [36
+
+] [37
+
+] [38
+
+] [39
+
 ]
-Overfull \hbox (6.09126pt too wide) detected at line 150
+Overfull \hbox (6.09126pt too wide) detected at line 163
 \OT1/cmss/m/it/10.95 f\OT1/cmss/m/n/10.95 (\OT1/cmss/m/it/10.95 m\OT1/cmss/m/n/10.95 ) = 1 + []
  []
 
-[36
+[40
 
 ]
 \tf@nav=\write6
@@ -768,18 +776,18 @@ Package rerunfilecheck Info: File `Apresentação.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 21521 strings out of 475924
- 422699 string characters out of 5784283
+ 21533 strings out of 475924
+ 422847 string characters out of 5784283
  1944496 words of memory out of 5000000
- 43160 multiletter control sequences out of 15000+600000
+ 43164 multiletter control sequences out of 15000+600000
  568659 words of font info for 75 fonts, out of 8000000 for 9000
  64 hyphenation exceptions out of 8191
  101i,15n,107p,448b,711s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/Users/Diogo/AppData/Local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/Users/Diogo/AppData/Local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/Users/Diogo/AppData/Local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/Users/Diogo/AppData/Local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb><c:/Users/Diogo/AppData/Local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb><c:/Users/Diogo/AppData/Local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb><c:/Users/Diogo/AppData/Local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb><c:/Users/Diogo/AppData/Local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi12.pfb><c:/Users/Diogo/AppData/Local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb><c:/Users/Diogo/AppData/Local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/Users/Diogo/AppData/Local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/Users/Diogo/AppData/Local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Apresentação.pdf (36 pages, 199970 bytes).
+Output written on Apresentação.pdf (40 pages, 210171 bytes).
 PDF statistics:
- 1067 PDF objects out of 1200 (max. 8388607)
- 971 compressed objects within 10 object streams
- 73 named destinations out of 1000 (max. 500000)
+ 1177 PDF objects out of 1200 (max. 8388607)
+ 1075 compressed objects within 11 object streams
+ 81 named destinations out of 1000 (max. 500000)
  67 words of extra memory for PDF output out of 10000 (max. 10000000)
 
