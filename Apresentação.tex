@@ -147,6 +147,35 @@
 \end{frame}
 
 \begin{frame}{Sketch of Proof: $H$ has non-abelian normal subgroups}
+    \begin{itemize}
+        \item Let $\alpha_1 \colon H \rightarrow \aut N_1$ that sends each $h \in H$ to
+        \begin{align*}
+            \alpha_1(h) \colon &N_1 \rightarrow N_1 \\
+                            &x \mapsto hxh^{-1}.
+        \end{align*} Let $L$ denote the image of $\alpha_1$.
+        \item<2-> The group $L$ has a unique minimal normal subgroup.
+        \item<3-> For $r > 1$, we define $\alpha_r \colon H \rightarrow \aut N_1$ as the homomorphism that sends $h \in H$ to
+        \begin{align*}
+            \alpha_r(h) \colon &N_1 \rightarrow N_1 \\
+                            &x \mapsto \phi_r^{-1}(h\phi_r(x)h^{-1}).
+        \end{align*}
+        \item<4-> Taking $q$ as the number of minimal normal subgroups of $H$, the function
+        \begin{align*}
+            \Psi \colon &H \rightarrow L_q \\
+                        &h \mapsto (\alpha_1(h),\ldots , \alpha_q(h))
+        \end{align*}
+        is an isomorphism.
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Sketch of Proof: $q = f(L, m)$}
+    Regardless of which case we consider, what was proved was that $H \cong L_q$ for some positive integer $q$ by some isomorphism $\Psi$. Since the image of a minimal normal subgroup by an isomorphism is again a minimal normal subgroup we obtain that for any minimal normal subgroup $N_r$ of $H$, $H/N_r \cong L_{q}/\Psi(N_r)$ and $H/N_r \cong L_{q-1}$. Since $H/N_r$ is a proper non-trivial quotient of $H$ we get that
+    $$
+    d(L_{q-1}) = d(H/N_r) < d(H) = d(L_q).
+    $$
+    This is precisely the definition of the function $f$. $\square$
+
+
 \end{frame}
 
 \begin{frame}{The function $f$}
