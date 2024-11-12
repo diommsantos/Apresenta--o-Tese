@@ -6,6 +6,8 @@
 \author{Diogo Santos}
 %\date{september 2024}
 
+\usepackage{mathrsfs}
+
 \newcommand{\subgen}[1]{\langle #1 \rangle}
 \newcommand{\card}[1]{| #1 |}
 \newcommand{\nsub}{\triangleleft}
@@ -179,6 +181,40 @@
 \end{frame}
 
 \begin{frame}{The function $f$}
+    \begin{definition}
+        Given a surjective homomorphism $\beta \colon L_k \rightarrow L/M$, we define the set $\mathscr{S}_\beta$ as the set of normal subgroups $N$ of $L_k$ arising as kernels of those homomorphisms of $L_k$ onto $L$ which composed with the natural projection $\pi_L \colon L \rightarrow L/M$ yield $\beta$.
+    \end{definition}
+    \begin{theorem}
+        Let us assume $M$ is abelian. Given a surjective homomorphism $\beta \colon L_k \rightarrow L/M$, the set $\mathscr{S}_\beta$ is identical to the set of kernels of surjective $L/M$-homomorphisms $\nu \colon M^k \rightarrow M$ with the above group actions.
+    \end{theorem}
+    
+\end{frame}
+
+\begin{frame}{The function $f$}
+    \begin{theorem}
+        Let us assume that $M$ is not abelian. Given a surjective homomorphism $\beta \colon L_k \rightarrow L/M$, the cardinality of the set $\mathscr{S}_\beta$ is $k$.
+    \end{theorem}
+\end{frame}
+
+\begin{frame}{The function $f$}
+    \begin{definition}
+        Let $F$ be a free group of rank $m$. Given a surjective homomorphism $\beta \colon F \rightarrow L/M$, we define the set $\mathscr{R}_\beta$ as the set of normal subgroups $N$ of $F$ arising as kernels of those homomorphisms of $F$ onto $L$ which composed with the natural projection $\pi_L \colon L \rightarrow L/M$ yield $\beta$.
+    \end{definition}
+    \onslide<2->{\begin{theorem}
+        Let $F$ be a free group of rank $m \ge d(L)$. Given a surjective homomorphism $\beta \colon F \rightarrow L/M$, the cardinality of the set $\mathscr{R}_{\beta}$ is $\phi_L(m)/\card{\Gamma}\phi_{L/M}(m)$, where $\Gamma$ denotes the set of all automorphisms of $L$ that act trivially on $L/M$. 
+    \end{theorem}}
+\end{frame}
+
+\begin{frame}{The function $f$}
+    \begin{theorem}
+        Let $F$ be a free group of rank $m \ge d(L)$ and $\beta \colon F \rightarrow L/M$ a surjective homomorphism. The group $F/(\bigcap_{N \in \mathscr{R}_\beta}N)$ is isomorphic to $L_q$ for some positive integer $q$. Furthermore $q$ is the biggest integer for which there exists a surjective homomorphism $\Psi \colon F \rightarrow L_q$ such that 
+        $$ 
+        \pi_{L_q} \circ \Psi = \beta.
+        $$
+    \end{theorem}
+\end{frame}
+
+\begin{frame}{The function $f$}
     \begin{theorem}
         Let $m \ge d(L)$ and $q$ be the number of $(L/M)$-endomorphisms of $M$ when $M$ is abelian. Then 
         $$
@@ -189,6 +225,31 @@
         \end{cases}
         $$
     \end{theorem}
+\end{frame}
+
+\begin{frame}{Sketch of proof}
+    \begin{itemize}
+        \item Let $F$ denote a free group of rank $m$. There exists a surjective homomorphism $\beta \colon F \rightarrow L/M$ such that $k$ is the biggest integer for which there exists a surjective homomorphism $F \rightarrow L_k$.
+        \item<2-> $F/\ker{\Psi_k}$ is the largest quotient of $F$ isomorpic to $L_i$ for some $i$; since $F$ is a free group of rank $m$ this means that 
+        $$
+        f(m) = 1 + k.
+        $$
+        \item<3-> $N \mapsto N/R \mapsto \phi(N/R)$ is a bijection between $\mathscr{R}_\beta$ and $\mathscr{S}_{\bar{\beta} \circ \phi^{-1}}$, where $\phi \colon F/\ker{\Psi_k} \rightarrow L_k$ is an isomorphism
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Sketch of proof}
+    \begin{itemize}
+        \item Applying the theorems before we obtain:
+        \begin{align*}
+            &\frac{\phi_L(m)}{\card{\Gamma}\phi_{L/M}(m)} = \card{\mathscr{R}_\beta} = \\
+            & \card{\mathscr{S}_{\bar{\beta} \circ \phi^{-1}}} = 
+        \begin{cases}
+            k & \text{if } M \text{ is not abelian,} \\
+            (q^k-1)/(q-1) & \text{if } M \text{ is abelian.} \\
+        \end{cases}
+        \end{align*}
+    \end{itemize}
 \end{frame}
 
 \end{document}

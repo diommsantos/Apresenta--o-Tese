@@ -278,6 +278,8 @@ INPUT c:/Users/Diogo/AppData/Local/texlive/2023/texmf-dist/tex/latex/beamer/beam
 INPUT c:/Users/Diogo/AppData/Local/texlive/2023/texmf-dist/tex/latex/beamer/beamercolorthemewhale.sty
 INPUT c:/Users/Diogo/AppData/Local/texlive/2023/texmf-dist/tex/latex/beamer/beamercolorthemeorchid.sty
 INPUT c:/Users/Diogo/AppData/Local/texlive/2023/texmf-dist/tex/latex/beamer/beamercolorthemeorchid.sty
+INPUT c:/Users/Diogo/AppData/Local/texlive/2023/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
+INPUT c:/Users/Diogo/AppData/Local/texlive/2023/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
 INPUT c:/Users/Diogo/AppData/Local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 INPUT c:/Users/Diogo/AppData/Local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 INPUT ./Apresentação.aux
@@ -346,6 +348,12 @@ INPUT c:/Users/Diogo/AppData/Local/texlive/2023/texmf-dist/tex/latex/amsfonts/um
 INPUT c:/Users/Diogo/AppData/Local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT c:/Users/Diogo/AppData/Local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT c:/Users/Diogo/AppData/Local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
+INPUT c:/Users/Diogo/AppData/Local/texlive/2023/texmf-dist/tex/latex/jknapltx/ursfs.fd
+INPUT c:/Users/Diogo/AppData/Local/texlive/2023/texmf-dist/tex/latex/jknapltx/ursfs.fd
+INPUT c:/Users/Diogo/AppData/Local/texlive/2023/texmf-dist/tex/latex/jknapltx/ursfs.fd
+INPUT c:/Users/Diogo/AppData/Local/texlive/2023/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm
+INPUT c:/Users/Diogo/AppData/Local/texlive/2023/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm
+INPUT c:/Users/Diogo/AppData/Local/texlive/2023/texmf-dist/fonts/tfm/public/rsfs/rsfs5.tfm
 INPUT c:/Users/Diogo/AppData/Local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmssi10.tfm
 INPUT c:/Users/Diogo/AppData/Local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmssi8.tfm
 INPUT c:/Users/Diogo/AppData/Local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmssi8.tfm
@@ -361,6 +369,9 @@ INPUT c:/Users/Diogo/AppData/Local/texlive/2023/texmf-dist/fonts/tfm/public/amsf
 INPUT c:/Users/Diogo/AppData/Local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT c:/Users/Diogo/AppData/Local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT c:/Users/Diogo/AppData/Local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
+INPUT c:/Users/Diogo/AppData/Local/texlive/2023/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm
+INPUT c:/Users/Diogo/AppData/Local/texlive/2023/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm
+INPUT c:/Users/Diogo/AppData/Local/texlive/2023/texmf-dist/fonts/tfm/public/rsfs/rsfs7.tfm
 INPUT c:/Users/Diogo/AppData/Local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmssi12.tfm
 INPUT c:/Users/Diogo/AppData/Local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmssi10.tfm
 INPUT c:/Users/Diogo/AppData/Local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmssi8.tfm
@@ -373,6 +384,7 @@ INPUT ./Apresentação.out
 INPUT c:/Users/Diogo/AppData/Local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
 INPUT c:/Users/Diogo/AppData/Local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
 INPUT c:/Users/Diogo/AppData/Local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
+INPUT c:/Users/Diogo/AppData/Local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb
 INPUT c:/Users/Diogo/AppData/Local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb
 INPUT c:/Users/Diogo/AppData/Local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb
 INPUT c:/Users/Diogo/AppData/Local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb
@@ -381,6 +393,8 @@ INPUT c:/Users/Diogo/AppData/Local/texlive/2023/texmf-dist/fonts/type1/public/am
 INPUT c:/Users/Diogo/AppData/Local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi12.pfb
 INPUT c:/Users/Diogo/AppData/Local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb
 INPUT c:/Users/Diogo/AppData/Local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+INPUT c:/Users/Diogo/AppData/Local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb
 INPUT c:/Users/Diogo/AppData/Local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
 INPUT c:/Users/Diogo/AppData/Local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb
 INPUT c:/Users/Diogo/AppData/Local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb
+INPUT c:/Users/Diogo/AppData/Local/texlive/2023/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb
