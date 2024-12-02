@@ -119,7 +119,7 @@
 \end{frame}
 
 \begin{frame}{Proof: $H$ has a unique minimal normal subgroup}
-    Let $M$ denote the unique minimal normal subgroup of $L$. 
+    Let $M$ denote the unique minimal normal subgroup of $H$. 
     \begin{itemize}
         \item<2-> If $M$ is not abelian there is nothing to prove.
         \item<3-> If $M$ is abelian then we need to prove that it is complemented. 
@@ -138,7 +138,7 @@
 \begin{frame}{Sketch of Proof: $H$ has abelian normal subgroups}
     \begin{itemize}
         \item We have that $soc(H)$ is complemented in $H$, say by $K$.
-        \item<2-> Let $L = N_1K$. For each minimal normal subgroup $N_r$ of $H$ complemented in $soc(H)$, say by $C_r$ there exists a surjective homomorphism $\Psi_r \colon H \rightarrow L$ with $\ker \Psi_r = C_r$.
+        \item<2-> Let $L = N_1K$. Each minimal normal subgroup $N_r$ of $H$ is complemented in $soc(H)$, say by $C_r$ and there exists a surjective homomorphism $\Psi_r \colon H \rightarrow L$ with $\ker \Psi_r = C_r$.
         \item<3-> There exists a positive integer $q$ such that the function 
         \begin{align*}
             \Psi \colon &H \longrightarrow L_q \\
@@ -184,13 +184,13 @@
     \begin{definition}
         Given a surjective homomorphism $\beta \colon L_k \rightarrow L/M$, we define the set $\mathscr{S}_\beta$ as the set of normal subgroups $N$ of $L_k$ arising as kernels of those homomorphisms of $L_k$ onto $L$ which composed with the natural projection $\pi_L \colon L \rightarrow L/M$ yield $\beta$.
     \end{definition}
-    \begin{theorem}
-        Let us assume $M$ is abelian. Given a surjective homomorphism $\beta \colon L_k \rightarrow L/M$, the set $\mathscr{S}_\beta$ is identical to the set of kernels of surjective $L/M$-homomorphisms $\nu \colon M^k \rightarrow M$ with the above group actions.
-    \end{theorem}
     
 \end{frame}
 
 \begin{frame}{The function $f$}
+    \begin{theorem}
+        Let us assume that $M$ is abelian. Given a surjective homomorphism $\beta \colon L_k \rightarrow L/M$, the cardinality of the set $\mathscr{S}_\beta$ is $k$ when $M$ is non-abelian; it is $(q^k-1)/(q-1)$ when $M$ is abelian and $q$ is the number of $(L/M)$-endomorphisms of $M$.
+    \end{theorem}
     \begin{theorem}
         Let us assume that $M$ is not abelian. Given a surjective homomorphism $\beta \colon L_k \rightarrow L/M$, the cardinality of the set $\mathscr{S}_\beta$ is $k$.
     \end{theorem}
@@ -229,7 +229,7 @@
 
 \begin{frame}{Sketch of proof}
     \begin{itemize}
-        \item Let $F$ denote a free group of rank $m$. There exists a surjective homomorphism $\beta \colon F \rightarrow L/M$ such that $k$ is the biggest integer for which there exists a surjective homomorphism $F \rightarrow L_k$.
+        \item Let $F$ denote a free group of rank $m$. There exists a surjective homomorphism $\beta \colon F \rightarrow L/M$ such that $k$ is the biggest integer for which there exists a surjective homomorphism $\Psi_k \colon F \rightarrow L_k$.
         \item<2-> $F/\ker{\Psi_k}$ is the largest quotient of $F$ isomorpic to $L_i$ for some $i$; since $F$ is a free group of rank $m$ this means that 
         $$
         f(m) = 1 + k.
