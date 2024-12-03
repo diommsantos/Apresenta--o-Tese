@@ -1,8 +1,8 @@
 # Fdb version 4
-["pdflatex"] 1733241370.10986 "c:/Users/Diogo/Documents/Matemática/Apresentação Tese/Apresentação.tex" "Apresentação.pdf" "Apresentação" 1733241372.95881 0
-  "Apresentação.aux" 1733241372.73504 3163 fe18c37c7d6678a9c18e8328c7fece29 "pdflatex"
-  "Apresentação.nav" 1733241372.7379 2154 cd39746b68d0ad948851dc46694ea1a0 "pdflatex"
-  "Apresentação.out" 1733241370.99179 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+["pdflatex"] 1733262141.59591 "c:/Users/Diogo/Documents/Matemática/Apresentação Tese/Apresentação.tex" "Apresentação.pdf" "Apresentação" 1733262144.4039 0
+  "Apresentação.aux" 1733262144.17506 3034 50d18630e5df3031b12991f9d4a38cd0 "pdflatex"
+  "Apresentação.nav" 1733262144.17506 2061 64b8a74ea7e533d1777c1c8a57e5c491 "pdflatex"
+  "Apresentação.out" 1733262142.47524 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   "c:/Users/Diogo/AppData/Local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1705508233.73943 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/Users/Diogo/AppData/Local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1705508032.05754 1004 54797486969f23fa377b128694d548df ""
   "c:/Users/Diogo/AppData/Local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1705508032.05754 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -40,7 +40,6 @@
   "c:/Users/Diogo/AppData/Local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi12.pfb" 1705508032.1044 25095 0ff1f6d531b320ecbbd6ea84d875816c ""
   "c:/Users/Diogo/AppData/Local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb" 1705508032.1044 25168 33771b85f45c82138dd7745db7092d1c ""
   "c:/Users/Diogo/AppData/Local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1705508032.1044 32569 5e5ddc8df908dea60932f3c484a54c0d ""
-  "c:/Users/Diogo/AppData/Local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb" 1705508032.1044 32587 1788b0c1c5b39540c96f5e42ccd6dae8 ""
   "c:/Users/Diogo/AppData/Local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb" 1705508032.12003 32626 4f5c1b83753b1dd3a97d1b399a005b4b ""
   "c:/Users/Diogo/AppData/Local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb" 1705508032.15127 31764 459c573c03a4949a528c2cc7f557e217 ""
   "c:/Users/Diogo/AppData/Local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb" 1705508032.16689 34694 ad62b13721ee8eda1dcc8993c8bd7041 ""
@@ -208,7 +207,7 @@
   "c:/Users/Diogo/AppData/Local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1712245889 627473 f3e6db63ee2aecea8914c6fccedb3fab ""
   "c:/Users/Diogo/AppData/Local/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1712245909 6891278 d7c4b017ed843fca1351906ba35bcb97 ""
   "c:/Users/Diogo/AppData/Local/texlive/2023/texmf.cnf" 1705508727.05414 713 baa45e065482d44c4cd81b98ef72c63b ""
-  "c:/Users/Diogo/Documents/Matemática/Apresentação Tese/Apresentação.tex" 1733241369.55536 12982 221ffb06b5d7268470566d725d85a517 ""
+  "c:/Users/Diogo/Documents/Matemática/Apresentação Tese/Apresentação.tex" 1733262138.09731 12342 dec7d2d970d137b52d27faa2045af7d6 ""
   (generated)
   "Apresentação.aux"
   "Apresentação.log"

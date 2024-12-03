@@ -227,28 +227,21 @@
     \end{theorem}
 \end{frame}
 
-\begin{frame}{Sketch of proof}
+\begin{frame}{Idea of the proof}
     \begin{itemize}
-        \item Let $F$ denote a free group of rank $m$. There exists a surjective homomorphism $\beta \colon F \rightarrow L/M$ such that $k$ is the biggest integer for which there exists a surjective homomorphism $\Psi_k \colon F \rightarrow L_k$.
-        \item<2-> $F/\ker{\Psi_k}$ is the largest quotient of $F$ isomorphic to $L_i$ for some $i$; since $F$ is a free group of rank $m$ this means that 
+        \item First prove that
         $$
         f(m) = 1 + k.
         $$
-        \item<3-> $N \mapsto N/R \mapsto \phi(N/R)$ is a bijection between $\mathscr{R}_\beta$ and $\mathscr{S}_{\bar{\beta} \circ \phi^{-1}}$, where $\phi \colon F/\ker{\Psi_k} \rightarrow L_k$ is an isomorphism
-    \end{itemize}
-\end{frame}
-
-\begin{frame}{Sketch of proof}
-    \begin{itemize}
-        \item Applying the theorems before we obtain:
+        \item <2-> Find surjective homomorphisms $\alpha, \beta$ to obtain:
         \begin{align*}
             &\frac{\phi_L(m)}{\card{\Gamma}\phi_{L/M}(m)} = \card{\mathscr{R}_\beta} = \\
-            & \card{\mathscr{S}_{\bar{\beta} \circ \phi^{-1}}} = 
-        \begin{cases}
-            k & \text{if } M \text{ is not abelian,} \\
-            (q^k-1)/(q-1) & \text{if } M \text{ is abelian.} \\
-        \end{cases}
-        \end{align*}
+            & \card{\mathscr{S}_{\alpha}} = 
+            \begin{cases}
+                k & \text{if } M \text{ is not abelian,} \\
+                (q^k-1)/(q-1) & \text{if } M \text{ is abelian.} \quad \square \\
+            \end{cases}
+        \end{align*} 
     \end{itemize}
 \end{frame}
 
