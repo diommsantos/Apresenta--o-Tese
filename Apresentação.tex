@@ -27,11 +27,11 @@
 \begin{frame}
     \frametitle{Introduction}
     \begin{itemize}
-        \item<1-> Finding the minimal number of gentators of a finite group $H$ \\
+        \item<1-> Finding the minimal number of generators of a finite group $H$ \\
     \end{itemize}
     \onslide<2->{Can be reduced to:}
     \begin{itemize}
-        \item<2-> Finding the minimal number of gentators of a finite group $H$ such that $d(H/N) \le m$ for every non-trivial normal subgroup $N$, but $d(H) > m$\\
+        \item<2-> Finding the minimal number of generators of a finite group $H$ such that $d(H/N) \le m$ for every non-trivial normal subgroup $N$, but $d(H) > m$\\
     \end{itemize}
 
 \end{frame}
@@ -55,7 +55,7 @@
 \begin{frame}{The case $m = 1$}
     \begin{proof}
         \begin{itemize}
-            \item<1-> $H \cong H/\Phi(H)$ is a $\mathbb{Z}_{p_1}$-vector space and thus $H = (\mathbb{Z}_{p_1})^q$
+            \item<1-> $H \cong H/\Phi(H)$ is a $\mathbb{F}_{p_1}$-vector space and thus $H \cong (\mathbb{Z}_{p_1})^q$
             \item<2-> $q = 2$ since $$q-1 = d((\mathbb{Z}_{p_1})^{q-1}) = d(H/(\mathbb{Z}_{p_1} \times 1 \times \ldots  \times 1)) = 1.$$
             
         \end{itemize}
@@ -91,7 +91,7 @@
 
 \begin{frame}{The function $f$}
     \begin{definition}
-        Given a group $L$ we define $f(L, m) = k+1$ if and only if $d(L_k) = m < d(L_{k+1})$. When $L$ can be identified from the context, we denote $f(L,m)$ as $f(m)$.
+        Given $L$ we define $f(L, m) = k+1$ if and only if $d(L_k) = m < d(L_{k+1})$. When $L$ can be identified from the context, we denote $f(L,m)$ as $f(m)$.
     \end{definition}
     \begin{itemize}
         \item<2-> Thus the function $f$ gives us \textit{the integer $k+1$ for which any proper quotient of $L_{k+1}$ has minimal number of generators smaller or equal to $m$ but $d(L_{k+1}) > m$.}
@@ -127,7 +127,7 @@
     \end{itemize}
 \end{frame}
 
-\begin{frame}{Sketch of Proof: $H$ has more than one minmal normal subgroup}
+\begin{frame}{Sketch of Proof: $H$ has more than one minimal normal subgroup}
     \begin{itemize}
         \item Let $N_1$ be a minimal normal subgroup of $H$. For any other minimal normal subgroups $N_r$ of $H$ ($N_1 \ne N_r$), there exists a subgroup $K_r$ of $H$ that complements both $N_1$ and $N_r$ in $H$.
         \item<2-> The projections $\pi_r : K_r \cap (N_1 \times N_r) \rightarrow N_1$ and $\rho_r : K_r \cap (N_1 \times N_r) \rightarrow N_r$ are isomorphisms. Thus there is an isomorphism $\phi_r : N_1 \rightarrow N_r$, specifically $\phi_r = \rho_r\pi_r^{-1}$.
@@ -171,7 +171,7 @@
 \end{frame}
 
 \begin{frame}{Sketch of Proof: $q = f(L, m)$}
-    Regardless of which case we consider, what was proved was that $H \cong L_q$ for some positive integer $q$ by some isomorphism $\Psi$. Since the image of a minimal normal subgroup by an isomorphism is again a minimal normal subgroup we obtain that for any minimal normal subgroup $N_r$ of $H$, $H/N_r \cong L_{q}/\Psi(N_r)$ and $H/N_r \cong L_{q-1}$. Since $H/N_r$ is a proper non-trivial quotient of $H$ we get that
+    Regardless of which case we consider, we proved that $H \cong L_q$ for some positive integer $q$ by some isomorphism $\Psi$. Since the image of a minimal normal subgroup by an isomorphism is again a minimal normal subgroup we obtain that for any minimal normal subgroup $N_r$ of $H$, $H/N_r \cong L_{q}/\Psi(N_r)$ and $H/N_r \cong L_{q-1}$. Since $H/N_r$ is a proper non-trivial quotient of $H$ we get that
     $$
     d(L_{q-1}) = d(H/N_r) < d(H) = d(L_q).
     $$
@@ -230,7 +230,7 @@
 \begin{frame}{Sketch of proof}
     \begin{itemize}
         \item Let $F$ denote a free group of rank $m$. There exists a surjective homomorphism $\beta \colon F \rightarrow L/M$ such that $k$ is the biggest integer for which there exists a surjective homomorphism $\Psi_k \colon F \rightarrow L_k$.
-        \item<2-> $F/\ker{\Psi_k}$ is the largest quotient of $F$ isomorpic to $L_i$ for some $i$; since $F$ is a free group of rank $m$ this means that 
+        \item<2-> $F/\ker{\Psi_k}$ is the largest quotient of $F$ isomorphic to $L_i$ for some $i$; since $F$ is a free group of rank $m$ this means that 
         $$
         f(m) = 1 + k.
         $$
